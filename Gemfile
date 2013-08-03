@@ -31,9 +31,11 @@ end
 
 group :development, :test do
 	gem 'mysql2'
+	gem	'capybara'
 end 
 group :test do
 	gem 'rspec-rails'
+	gem 'launchy'
 end
 
 group :production do
@@ -41,6 +43,7 @@ group :production do
 end
 
 gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

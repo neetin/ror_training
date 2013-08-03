@@ -17,7 +17,7 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: gallery_dev
+  database: gallery_test
   username: root
   password: sql
   #socket: /var/run/mysqld/mysqld.sock
