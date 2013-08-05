@@ -32,10 +32,12 @@ end
 group :development, :test do
 	gem 'mysql2'
 	gem	'capybara'
+	gem 'pry-rails'
 end 
 group :test do
 	gem 'rspec-rails'
 	gem 'launchy'
+	gem 'database_cleaner'
 end
 
 group :production do

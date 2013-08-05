@@ -1,4 +1,5 @@
 Gallery::Application.routes.draw do
+  get "user/index"
   devise_for :users
   resources :albums
   root 'albums#index'
