@@ -47,7 +47,7 @@ end
 
 gem 'devise'
 gem 'carrierwave'
-gem 'rmagick'
+#gem 'rmagick'
 
 
 # Use ActiveModel has_secure_password
