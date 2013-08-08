@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -45,6 +46,9 @@ group :production do
 end
 
 gem 'devise'
+gem 'carrierwave'
+gem 'rmagick'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
