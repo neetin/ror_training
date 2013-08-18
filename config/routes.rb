@@ -1,7 +1,12 @@
 Gallery::Application.routes.draw do
+  get "photo/new"
+  get "photo/create"
   get "user/index"
   devise_for :users
-  resources :albums
+  resources :albums do
+    resources :photos
+  end
+
   root 'albums#index'
 
   

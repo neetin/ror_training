@@ -1,0 +1,19 @@
+<h1>Add Photo for: <%= @album.title %></h1>
+
+
+<%= form_for([@album, @photo]) do |f| %>
+
+	<p><%= f.label :caption %> <br />
+		<%= f.text_field :caption %> <br />
+	</p>
+
+	<p><%= f.label :description %> <br />
+		<%= f.text_area :description %> <br />
+	</p>
+
+	<p><%= f.label :photo %> <br />
+		<%= f.file_field :photo %> <br />
+	</p>
+	<P calss="button"><%= f.submit %></p>
+
+<% end %>
