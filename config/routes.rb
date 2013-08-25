@@ -1,4 +1,6 @@
 Gallery::Application.routes.draw do
+  resources :comments
+
   get "photo/new"
   get "photo/create"
   get "user/index"

@@ -50,6 +50,9 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'simple_form'
 gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'therubyracer'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
