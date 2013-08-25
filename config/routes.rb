@@ -7,6 +7,7 @@ Gallery::Application.routes.draw do
     resources :photos
   end
 
+  resources :photos
   root 'albums#index'
 
   

@@ -1,3 +1,5 @@
-<h1><%= @album.title %><?h1>
-<h2><%= @photo.caption %></h2>
+<h2>Photo Caption: <%= @photo.caption %></h2>
+<h2>Description: <%= @photo.description %></h2>
+<h2>Categories: <%= @photo.view_categores %></h2>
+
 <%= image_tag(@photo.photo.large) %>
