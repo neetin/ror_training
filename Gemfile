@@ -52,7 +52,9 @@ gem 'simple_form'
 gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
-
+gem 'sidekiq'
+gem 'sinatra'
+gem 'slim'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

@@ -1,0 +1,7 @@
+# skidekiq -C config.yml
+---
+:verbose: true
+:concurrency: 5
+:queues:
+  - [high, 7]
+  - [alb_mailer, 5]
